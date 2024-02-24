@@ -34,6 +34,7 @@ def patch_game():
 
     with open(latest_save_copy, "rb") as file:
         zipped_buffer = file.read()
+        # Expand the game content
         inflated_buffer = zlib.decompress(zipped_buffer)
 
     for i, byte in enumerate(inflated_buffer):

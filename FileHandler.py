@@ -3,6 +3,7 @@ import os
 from shutil import copyfile
 
 saves = os.listdir(save_location)
+# Get and create a full path for the latest save
 latest_save = max([f"{save_location}\\{save}" for save in saves], key=os.path.getctime)
 
 # Get and create a working copy of the latest save
