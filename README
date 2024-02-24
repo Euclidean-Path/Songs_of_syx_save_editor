@@ -1,7 +1,10 @@
 - This is an easy way to quickly patch your Songs of Syx save games, allowing you to change pre-game settings mid-game.
-- Change each setting from a 0 to a 1 in Config.py to adjust your gameplay, 0 is off 1 is on
-- Change the "save_location" in Config.py to your SOS save location, it will look like this "C:\Users\USERNAME\AppData\Roaming\songsofsyx\saves\saves"
-- run the "PatchSave" BAT file
+
+1 Change each setting from a 0 to a 1 in Config.py to adjust your gameplay, 0 is off 1 is on
+
+2 Change the "save_location" in Config.py to your SOS save location, it will look like this "C:\Users\USERNAME\AppData\Roaming\songsofsyx\saves\saves"
+
+3 run the "PatchSave" BAT file
 
 
 - working as of V0.65.65
